@@ -15,14 +15,14 @@ else:
     bool = True
 
 if(bool):
-    with open('../outputFiles/train_error_graph.txt','r') as error_graph:
+    with open('../outputFiles/test/train_error_graph.txt','r') as error_graph:
         plots = csv.reader(error_graph, delimiter=',')
         for row in plots:
             x.append(int(row[0]))
             y.append(float(row[1]))
         title = 'Training Dataset Size - 40500'
 else:
-    with open('../outputFiles/test_error_graph.txt','r') as error_graph:
+    with open('../outputFiles/test/test_error_graph.txt','r') as error_graph:
         plots = csv.reader(error_graph, delimiter=',')
         for row in plots:
             x.append(int(row[0]))

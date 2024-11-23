@@ -15,7 +15,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 class myGNN(torch.nn.Module):
     """
-    funGNN: A Graph Neural Network Approach to Program Similarity 
+    myGNN: A Graph Neural Network Approach to Program Similarity 
     """
     def __init__(self, args, number_of_labels):
         """

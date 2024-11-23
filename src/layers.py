@@ -42,7 +42,7 @@ class AttentionModule(torch.nn.Module):
 
 class TenorNetworkModule(torch.nn.Module):
     """
-    funcGNN Tensor Network module to calculate similarity vector.
+    myGNN Tensor Network module to calculate similarity vector.
     """
     def __init__(self, args):
         """
